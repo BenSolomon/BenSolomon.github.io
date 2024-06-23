@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: ""
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  # sidebar:
+  #   style: "docked"
+  #   contents:
+  #     - section: "Basics"
+  #       contents:
+  #         - index.qmd
+  #         - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
