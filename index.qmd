@@ -1,8 +1,9 @@
 ---
-title: "Ben Solomon"
+title: "Ben Solomon\nMD, PhD"
 about:
   template: trestles
   image: img/profile.jpg
+  image-width: 15em
   links:
     - icon: github
       text: Github
@@ -10,26 +11,49 @@ about:
     - icon: instagram
       text: Photography
       url: https://solomonb.myportfolio.com/
-    # - text: "{{< fa envelope >}} Email"
-    #   url: mailto:chris+website@chrisvoncsefalvay.com
-    - text: "{{< ai orcid >}} ORCID 0000-0003-1009-7312"
+    - text: "{{< ai orcid >}} ORCID"
       url: https://orcid.org/0000-0003-1009-7312
     - text: "{{< ai google-scholar >}} Google Scholar"
       url: https://scholar.google.com/citations?user=S6kW18EAAAAJ
     - text: "{{< ai researchgate >}} Research Gate"
       url: https://www.researchgate.net/profile/Benjamin-Solomon-3
-    - text: "![](img/stanford.png) Stanford Profile"
-      url: https://profiles.stanford.edu/benjamin-solomon
+listing:
+  - id: apps
+    template: applications.ejs
+    contents: applications.yml
+
+  - id: pubs
+    template: publications.ejs
+    contents: publications.yml
+    
+format:
+  html:
+    theme: cosmo
+    page-layout: full
+    # css: styles.css
+
+
 ---
 
-I am a clinical scholar and attending physician in allergy and immunology at Stanford University. 
+
+I am a clinical scholar and attending physician in allergy and immunology at Stanford University.
 
 ## Education and training
 
-- Stanford University \| Fellowship - Allergy and Immunology \| July 2022 - June 2024
-- Stanford University \| Residency - Pediatrics \| July 2018 - June 2022
-- Washington University, St. Louis \| MD, PhD - Immunology \| August 2009 - May 2018
-- Cornell University \| BA - Biology, Philosophy \| August 2009 - May 2018
+-   Stanford University \| Fellowship - Allergy and Immunology \| July 2022 - June 2024
+-   Stanford University \| Residency - Pediatrics \| July 2018 - June 2022
+-   Washington University, St. Louis \| MD, PhD - Immunology \| August 2009 - May 2018
+-   Cornell University \| BA - Biology, Philosophy \| August 2009 - May 2018
 
+
+## Web applications
+
+::: {#apps}
+:::
+
+## Publications
+
+::: {#pubs}
+:::
 
 

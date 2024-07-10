@@ -1,1 +1,15 @@
 /* css styles */
+
+
+/* Adjust width of left about panel */
+/* Note: image-width yaml in index.qmd sets the minimum width */
+
+
+p {
+    word-wrap: break-word;  
+}
+
+div.quarto-about-trestles .about-contents {
+    overflow-x: hidden;
+    word-wrap: break-word;
+}

@@ -1,0 +1,6 @@
+---
+title: "HIES"
+image: ../img/hies-score.png
+---
+
+<meta http-equiv="refresh" content="0; url=https://bsolomon.us/app/hies-score/">

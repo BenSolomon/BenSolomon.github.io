@@ -1,0 +1,4 @@
+---
+title: "Invitae"
+redirect: "https://bsolomon.us/app/hies-score/"
+---

@@ -7,3 +7,31 @@ About this site
 ```{r}
 1 + 1
 ```
+
+## More
+
+{{< lipsum >}}
+
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbb
+
+## Form
+
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  formbutton("create", {action: "https://formspree.io/ben.solomon.mdphd@gmail.com"})
+</script>
+
+## Notes
+
+- https://chrisvoncsefalvay.com/
+- https://github.com/chrisvoncsefalvay/chrisvoncsefalvay.github.io
+- https://www.mm218.dev/
+- https://formspree.io/formbutton/docs/#getting-started
+- https://quarto.org/docs/websites/website-about.html
+- https://quarto.org/docs/websites/website-listings.html
+- https://quarto.org/docs/websites/website-listings-custom.html
+- https://github.com/quarto-dev/quarto-web/tree/main/docs/gallery
+- With an html flex container, how do I allow two flex items to scroll independently of each other 
+- https://quarto.org/docs/output-formats/page-layout.html
